@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* ナビバー */
+.navbar {
+  background-color: #CCDEE3;
+}
+
+/* フッター */
+footer {
+  margin-top: 2rem;
+}
+
+/* メイン */
+.container {
+  margin-top: 1rem;
+}
+
+/* ログイン、会員登録ページのコンテナ */
+.narrow-container {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+@media(max-width:767px) {
+  .narrow-container {
+    width: 95%;
+  }
+}
+
+/* 検索窓 */
+.top-search {
+  margin-bottom: 2rem;
+}
+
+.top-input {
+  margin-right: 1rem;
+  max-width: 20rem;
+}  
+
+/* サイドメニュー */
+.side-menu {
+  text-align: center;
+  min-width: 12rem;
+  margin-top: 1rem;
+}
+
+/* 見出し */
+h2 {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+/* ボタン */
+.btn {
+  min-width: 4.5rem;
+}
+
+/* フォーム */
+.form-label {
+  font-weight: bolder;
+}
+
+.error-message {
+  color: red;
+}
+
+/* 本と推薦文のカード */
+.book-card th,
+.book-recommend-card th {
+  width: 8rem;
+}
+
+.recommend-card .card-footer,
+.book-recommend-card .card-footer {
+  background-color: transparent;
+  text-align: end;
+}
+
+.book-recommend-card .book-title {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+/* トップページの表示ジャンルのリスト */
+.genre-list {
+  list-style: none;
+}
