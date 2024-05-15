@@ -5,7 +5,7 @@
 設計書はdocフォルダに入っています。
 
 # 開発環境
-
+Windows 10 Version 22H2<br>
 PHP 8.0.15<br>
 MariaDB 10.4.22
 
